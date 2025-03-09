@@ -1,6 +1,6 @@
 <script setup lang="ts">
 import type { Shoe } from "../scripts/types";
-import placeholderImg from "../assets/imagePlaceHolder.jpg";
+import placeholderImg from "../assets/images/imagePlaceHolder.jpg";
 import { computed } from "vue";
 const props = defineProps<{
   shoe: Shoe;
